@@ -1,0 +1,24 @@
+.listContainer:nth-child(odd) {
+	background-color : #ffffff;
+}
+.listContainer:nth-child(even) {
+	background-color : #efefef;
+}
+.listContainer:hover {
+	cursor : pointer;
+	color : #ffffff;
+	background-color : #000000;
+}
+.listContainer {
+	display: table-row;
+  margin: auto;
+	text-decoration: none;
+}
+
+.listContainer > div {
+	display: table-cell;
+	padding : 15px;
+	text-align : center;
+	vertical-align : middle;
+	font-weight : bold;
+}
